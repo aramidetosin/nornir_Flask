@@ -17,7 +17,7 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <a class="navbar-brand" href="/">NetApp</a>
+  <a class="navbar-brand" href="/">Nornir NetApp</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -38,7 +38,7 @@
 
 <div class="container" style="margin-top:30px">
 <div class="jumbotron">
-  <h1>{{device_name}} Facts</h1>
+  <h1>{{facts.facts.hostname|upper }} Facts</h1>
   <p>Retrieved by Nornir using Napalm.</p>
 </div>
   <div class="row">
