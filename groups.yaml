@@ -3,3 +3,7 @@ cisco_ios:
   connection_options:
     napalm:
       platform: ios
+juniper:
+  connection_options:
+    napalm:
+      platform: junos
